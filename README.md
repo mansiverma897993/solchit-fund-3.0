@@ -9,7 +9,6 @@ This project demonstrates full-stack Web3 architecture:
 4. TypeScript client integration
 5. Next.js frontend with wallet connection
 
-Frontend (Next.js + TypeScript)<br>
 Phantom Wallet<br>
 Anchor Client (IDL-based interaction)<br>
 Solana Devnet<br>
