@@ -1,4 +1,4 @@
-SolChit Fund 3.0(Digital Committee) is a decentralized rotating savings protocol (ROSCA / Chit Fund) built on the Solana blockchain using Rust and the Anchor framework.
+🏗SolChit Fund 3.0(Digital Committee) is a decentralized rotating savings protocol (ROSCA / Chit Fund) built on the Solana blockchain using Rust and the Anchor framework.
 
 The protocol replaces the traditional trust-based chit fund organizer with deterministic on-chain logic, transparent accounting, and program-controlled vaults.
 
@@ -14,3 +14,13 @@ Anchor Client (IDL-based interaction)<br>
 Solana Devnet<br>
 Rust Smart Contract (Anchor Program)<br>
 SPL Token Program (USDC transfers)<br>
+
+📦 Smart Contract Features
+
+Pool creation <br>
+Member joining <br>
+Contribution validation <br>
+SPL token vault management <br>
+Secure PDA authority <br>
+Deterministic accounting <br>
+Anchor-based constraints <br>
