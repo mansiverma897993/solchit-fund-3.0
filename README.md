@@ -9,18 +9,19 @@ This project demonstrates full-stack Web3 architecture:
 4. TypeScript client integration
 5. Next.js frontend with wallet connection
 
-Phantom Wallet<br>
-Anchor Client (IDL-based interaction)<br>
-Solana Devnet<br>
-Rust Smart Contract (Anchor Program)<br>
-SPL Token Program (USDC transfers)<br>
+- ✅Phantom Wallet<br>
+- ✅Anchor Client (IDL-based interaction)<br>
+- ✅Solana Devnet<br>
+- ✅Rust Smart Contract (Anchor Program)<br>
+- ✅SPL Token Program (USDC transfers)<br>
 
 📦 Smart Contract Features
 
-Pool creation <br>
-Member joining <br>
-Contribution validation <br>
-SPL token vault management <br>
-Secure PDA authority <br>
-Deterministic accounting <br>
-Anchor-based constraints <br>
+- ✅ Pool creation with configurable parameters
+- ✅ Member registration and joining logic
+- ✅ Periodic contribution validation
+- ✅ SPL token vault-based fund custody
+- ✅ Secure PDA-controlled treasury authority
+- ✅ Deterministic accounting per member
+- ✅ Anchor-based account constraints & validations
+- ✅ Transparent and trustless fund rotation mechanism
