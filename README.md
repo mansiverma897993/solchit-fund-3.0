@@ -17,17 +17,17 @@ Built with **Rust + Anchor** on the **Solana** blockchain, with a
 
 ## ✨ Features
 
-- **Pool creation** — configure the per-member contribution amount and the
+- **Pool creation** : configure the per-member contribution amount and the
   maximum number of members (`create_pool`).
-- **Member onboarding** — any wallet can join a pool while it is not full,
+- **Member onboarding** : any wallet can join a pool while it is not full,
   with an automatic `Member` account initialized (`join_pool`).
-- **On-chain contribution enforcement** — a member cannot deposit twice; the
+- **On-chain contribution enforcement** : a member cannot deposit twice; the
   program validates membership and pool state before moving funds (`deposit`).
-- **USDC vault custody** — contributions are transferred via SPL Token CPI
+- **USDC vault custody** : contributions are transferred via SPL Token CPI
   from the member's token account into the pool vault.
-- **PDA-based program authority** — accounts are governed by the program,
+- **PDA-based program authority** : accounts are governed by the program,
   with Anchor account constraints and validation on every instruction.
-- **Deterministic accounting** — each member's deposit state is tracked in a
+- **Deterministic accounting** : each member's deposit state is tracked in a
   dedicated account (`has_deposited`).
 
 > ⚠️ This is **phase 1** of the protocol. Round rotation, winner selection and
